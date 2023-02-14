@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url('https://factorialhr.co.uk/wp-content/uploads/2021/10/18104603/Factorial-new-brand.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section .text {
+    padding: 110px 30px;
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+section .text h1 {
+    color: #428dff;
+    font-weight: 700;
+}
+
+section .text p {
+    color: #808080;
+}
+
+section .logic {
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+section .logic form {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px 0px;
+    height: 30vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    -webkit-box-shadow: -1px -1px 48px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 48px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -1px 48px -7px rgba(0, 0, 0, 0.75);
+}
+
+section .logic form input {
+    width: 350px;
+    height: 35px;
+}
+
+section .logic form button {
+    margin-left: 15px;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #428dff;
+}
+
+section form button:hover {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+section .logic .answer {
+    padding: 30px 0px;
+    height: 30vh;
+    width: 80%;
+    margin-bottom: 60px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    -webkit-box-shadow: -1px -1px 48px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 48px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -1px 48px -7px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+section .answer input {
+    width: 350px;
+    height: 35px;
+}
